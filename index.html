@@ -1,147 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pujan Gujarati | Frontend Developer</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-inner">
+        <div class="logo">Pujan.</div>
 
-<body>
+        <nav class="nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
 
-<header>
-    <a href="#" class="logo">Pujan Gujarati</a>
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+      </div>
+    </header>
 
-    <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Hello, I'm <span>Pujan Gujarati</span></h1>
+          <h2>Frontend Developer</h2>
+          <p>
+            I design and build modern, responsive and interactive web
+            experiences with clean UI and smooth animations.
+          </p>
 
-    <i class="fa-solid fa-list" id="menu-icon"></i>
+          <div class="hero-buttons">
+            <a href="#" class="btn">Download CV</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
 
-    <button class="visitbtn">Visit Github</button>
-</header>
-<section id="about" class="about">
-<div class="about-container">
-    <img src="image.jpg" alt="Pujan gujarati photo">
-    <div class="info-box">
-        <div class="text">
-        <h3>Hi, I'm</h3>
-        <h2>Pujan Gujarati</h2>
-        <span>Frontend Developer</span>
-    </div>
-
-    <div class="btn-group">
-       <div class="btn">Download CV</div>
-       <div class="btn">Contact</div>
-    </div>
-
-    <div class="socials">
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin"></i>
-
-    </div>
-    
-</div>
-</div>
-</div>
-</section>
-<section id="experience" class="experience">
-<h2 class="section-title">Experience</h2>
-<div class="experience-info">
-    <div class="grid">
-        <div class="grid-card">
-
-            <span>Frontend Development</span>
-            <h3>1 year</h3>
-            <p>i am Frontend Developer, and i have been working for last 1 year. i can create interactive Websites</p>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
         </div>
 
-        <div class="grid-card">
-            
-            <span>Graphic Design</span>
-            <h3>1 year</h3>
-            <p>I am Graphic designer. I can make stunning web pages, logos, Portfolio,etc..</p>
+        <div class="hero-image">
+          <img src="image.jpg" alt="Pujan Gujarati" />
         </div>
+      </div>
+    </section>
 
-        <div class="grid-card">
-            
-            <span>Ai creator</span>
-            <h3>1 year</h3>
-            <p>i am also an Ai creator. I can generate eye catching and amazing ai generated videos and images.I can write beautiful prompts for an Ais. I am running an instagram page called promptverse_ai where i post beautiful ai generated videos and images.</p>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">
+          I am a Frontend Developer with experience in building visually
+          appealing, responsive websites. I also work as a Graphic Designer and
+          AI Creator, producing high-quality AI-generated images and videos.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-grid">
+          <div class="experience-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Frontend Developer</h3>
+            <span>1 Year</span>
+            <p>
+              Building responsive, interactive and modern web applications using
+              HTML, CSS and JavaScript.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h3>Graphic Designer</h3>
+            <span>1 Year</span>
+            <p>
+              Designing clean layouts, logos, portfolios and creative web
+              visuals.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <i class="fa-solid fa-robot"></i>
+            <h3>AI Creator</h3>
+            <span>1 Year</span>
+            <p>
+              Creating AI-generated images & videos and managing the Instagram
+              page <b>@promptverse_ai</b>.
+            </p>
+          </div>
         </div>
-       </div>
-       <img src="image.jpg" alt="pujan gujarati photo">
-       <i class="fa-solid fa-code"></i>
-       <i class="fa-solid fa-file-code"></i>
-       <i class="fa-solid fa-computer"></i>
-       
-</div>
-</section>
+      </div>
+    </section>
 
-<section id="Projects" class="Projects">
-    <h2 class="section-title">Recent Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card">
-            <img src="project-1.png" alt="pic-1">
-            <h3>projectX</h3>
-            <p></p>
-            <div class="btn">Live Demo</div>
-            <div class="btn">Github Repo</div>
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-card featured">
+            <img src="project-tours.png" alt="Puj Tours" />
+            <h3>Puj Tours</h3>
+            <p>Travel & tour booking website with modern UI.</p>
+            <a
+              href="https://puj-tour.vercel.app"
+              target="_blank"
+              class="btn btn-small"
+            >
+              Live Demo
+            </a>
+          </div>
+
+          <div class="project-card">
+            <img src="project-weather.png" alt="Weather App" />
+            <h3>Weather App</h3>
+            <p>Weather application using real-time API data.</p>
+            <span class="tag">Frontend Project</span>
+          </div>
+
+          <div class="project-card">
+            <img src="project-calculator.png" alt="Calculator" />
+            <h3>Calculator</h3>
+            <p>Simple and responsive calculator using JavaScript.</p>
+            <span class="tag">JavaScript</span>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <div class="project-card">
-            <img src="project-2.png" alt="pic-2">
-            <h3>projectz</h3>
-            <p></p>
-            <div class="btn">Live Demo</div>
-            <div class="btn">Github Repo</div>
-        </div>
-
-        <div class="project-card">
-            <img src="project-3.png" alt="pic-3">
-            <h3>projecty</h3>
-            <p></p>
-            <div class="btn">Live Demo</div>
-            <div class="btn">Github Repo</div>
-        </div>
-
-
-    </div>
-</section>
-<Section class="contact" id="contact">
-    <div class="input-box">
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
         <h2 class="section-title">Contact Me</h2>
-        <div class="input">
-            <input type="text" placeholder="example@email.com">
-            <i class="fa-solid fa-envelope"></i>
-        </div>
-        <div class="btn">Submit</div>
-    </div>
-</Section>
-<footer>
-    <ul>
-        <li>
-            <a href="#about">About</a>
-        </li>
-        <li>
-            <a href="#experience">Experience</a>
-        </li>
-        <li>
-            <a href="#projects">Projects</a>
-        </li>
-        <li>
-            <a href="#contact">Contact</a>
-        </li>
-    </ul>
-    <p class="copyright"> All rights reserved | Pujan Gujarati</p>
-</footer>
 
+        <form class="contact-form">
+          <input type="email" placeholder="example@email.com" required />
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
 
-<script src="script.js"></script>
-</body>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Pujan Gujarati. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
